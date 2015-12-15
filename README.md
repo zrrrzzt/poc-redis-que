@@ -30,3 +30,8 @@ Post messages to pub
 $ echo '{"text": "Hello, world!"}' | curl -d @- http://localhost:3000/pub/channel1 --header "Content-Type:application/json"
 ```
 
+Post messages to list
+```sh
+$ echo '{"text": "Hello, world!"}' | curl -d @- http://localhost:3000/list/list1 --header "Content-Type:application/json"
+```
+

@@ -14,6 +14,7 @@ function handlePushMessages(request, reply) {
   var list = request.params.list
   var msg = JSON.stringify(request.payload)
   client.rpush(list, msg)
+  client.publish('list', JSON.stringify({list:list, message: 'New message pushed to list'}))
   reply(JSON.parse(msg))
 }
 
