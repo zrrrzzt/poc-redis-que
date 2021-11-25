@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "hapi": "^18.0.0",
-    "redis": "^3.0.0"
+    "redis": "^4.0.0"
   }
 }
