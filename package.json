@@ -27,7 +27,7 @@
     "url": "git://github.com/zrrrzzt/poc-redis-que.git"
   },
   "dependencies": {
-    "hapi": "^18.0.0",
+    "@hapi/hapi": "^18.0.0",
     "redis": "^4.0.0"
   }
 }
